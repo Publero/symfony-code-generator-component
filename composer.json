@@ -1,0 +1,22 @@
+{
+    "name": "publero/code-generator",
+    "type": "library",
+    "description": "Publero Code Generator Component",
+    "keywords": ["hash", "generator", "code"],
+    "homepage": "https://github.com/Publero/symfony-code-generator-component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomáš Pecsérke",
+            "email": "tomas.pecserke@publero.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "Publero\\Component\\CodeGenerator": "" }
+    },
+    "target-dir": "Publero/Component/CodeGenerator",
+    "minimum-stability": "dev"
+}
